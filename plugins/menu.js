@@ -88,11 +88,11 @@ const handler = async (m, { conn, usedPrefix: _P, isOwner, isPremium }) => {
 			? text
 			: "";
 	const name = await conn.getName(m.sender);
-	let wibh = moment.tz("Africa/Casablanca").format("HH");
-	let wibm = moment.tz("Africa/Casablanca").format("mm");
-	let wibs = moment.tz("Africa/Casablanca").format("ss");
-	let wit = moment.tz("Africa/Casablanca").format("HH:mm:ss");
-	let wita = moment.tz("Africa/Casablanca").format("HH:mm:ss");
+	let wibh = moment.tz("Africa/Kenya").format("HH");
+	let wibm = moment.tz("Africa/Kenya").format("mm");
+	let wibs = moment.tz("Africa/Kenya").format("ss");
+	let wit = moment.tz("Africa/Kenya").format("HH:mm:ss");
+	let wita = moment.tz("Africa/Kenya").format("HH:mm:ss");
 	let wktuwib = `${wibh}.${wibm}.${wibs}`;
 
 	const more = String.fromCharCode(8206);
@@ -214,16 +214,16 @@ function ucapan() {
 	const time = moment.tz("Africa/kenya").format("HH");
 	let res = "🐯";
 	if (time >= 4) {
-		res = "(صباح الخير)";
+		res = "(Good Morning)";
 	}
 	if (time >= 10) {
-		res = "(صباح الخير)";
+		res = "(Good Morning)";
 	}
 	if (time >= 15) {
-		res = "(مساء الخير)";
+		res = "(Good Evening)";
 	}
 	if (time >= 18) {
-		res = "(مساء الخير)";
+		res = "(Good Evening)";
 	}
 	return res;
 }
