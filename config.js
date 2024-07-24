@@ -51,12 +51,12 @@ global.url = {
  sgc: 'https://chat.whatsapp.com/F5BXJci8EDS9AJ6sfKMXIS'
 }
 
-global.wait  `Chill a moment...`
+global.wait =` انتظر .. أنا أحاول تلبية طلبك ...`
 
 // Info Wait
 global.msg = {
  wait: '⏱️ *Please be patient*\n\> Running command from *User*!',
- eror: '🤖*Bot Information*\n\> Sorry for the inconvenience in using *Panther Bot*. There was an error in the system while executing the command.'
+ eror: '🤖*Bot Information*\n\> Sorry for the inconvenience in using *Panther md*. There was an error in the system while executing the command.'
 }
 
 global.multiplier = 69
