@@ -1,9 +1,3 @@
-/*
-wa.me/6282285357346
-github: https://github.com/sadxzyq
-Instagram: https://instagram.com/tulisan.ku.id
-ini wm gw cok jan di hapus
-*/
 
 import './config.js'
 import path, {
@@ -218,7 +212,7 @@ if (global.pairingCode && !conn.authState.creds.registered) {
         phoneNumber = global.info.pairingNumber.replace(/[^0-9]/g, '')
 
         if (!Object.keys(PHONENUMBER_MCC).some(v => phoneNumber.startsWith(v))) {
-            console.log(chalk.bgBlack(chalk.redBright("Start with your country's WhatsApp code, Example : 212xxx")))
+            console.log(chalk.bgBlack(chalk.redBright("Start with your country's WhatsApp code, Example : 254710xxx")))
             process.exit(0)
         }
     } else {
