@@ -6,17 +6,17 @@ let handler = async (m, { conn, command, text, usedPrefix }) => {
   let vid = res.videos[0]
   await conn.sendMessage(m.chat, { react: { text: "⏳",key: m.key,}
   })  
-  if (!vid) throw 'لم يتم العثور عليه، حاول عكس العنوان والمؤلف'
+  if (!vid) throw 'Not found try again'
   let { title, description, thumbnail, videoId, durationH, viewH, publishedTime } = vid
   const url = 'https://www.youtube.com/watch?v=' + videoId
-let vap = `*〔 Y O U T U B E P L A Y 〕*
+let vap = `*PANTHER MD SONG PLAYER*
 
-*عنوان المقطع:* ${title}
-*رابط المقطع:* ${url}
-*وصف المقطع:* ${description}
-*تاريخ نشره:* ${publishedTime}
-*مدته:* ${durationH}
-*عدد المشاهدات:* ${viewH}`
+*Title:* ${title}
+*Url:* ${url}
+*Info:* ${description}
+*Uploaded:* ${publishedTime}
+*Duration:* ${durationH}
+*Views:* ${viewH}`
 
 conn.sendMessage(m.chat, {
 text: vap,
@@ -38,7 +38,7 @@ mimetype: 'audio/mp4', fileName: `${title}`, contextInfo: { externalAdReply: { s
 mediaType:  2,
 mediaUrl: url,
 title: title,
-body: "© SILANA",
+body: "©𝐒𝐢𝐫 𝐈𝐛𝐫𝐚𝐡𝐢𝐦",
 sourceUrl: url,
 thumbnail: await(await conn.getFile(thumbnail)).data                                                                     
                                                                                                                  }
