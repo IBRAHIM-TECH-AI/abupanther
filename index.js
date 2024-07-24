@@ -29,11 +29,11 @@ const {
  tz } = moment
 const app = express();
 const port = process.env.PORT || 8082;
-const time = tz('Africa/casablanca').format('HH:mm:ss');
+const time = tz('Africa/kenya').format('HH:mm:ss');
 const currentFilePath = new URL(import.meta.url).pathname;
 const __dirname = dirname(fileURLToPath(import.meta.url))
 
-let bot_ku = 'SILANA BOT'
+let bot_ku = 'PANTHER MD'
 say(bot_ku, {
   font: "simpleBlock",
   align: "center",
