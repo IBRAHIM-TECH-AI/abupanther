@@ -9,15 +9,15 @@ global.setting = {
  }
 
 global.owner = [
-['254710772666', 'Nour', true],
-['254710772666', 'imillie', false],
-['254710772666', '8bal', false]
+['212717457920', 'Nour', true],
+['212605784394', 'imillie', false],
+['212693227969', '8bal', false]
 ]
 
 global.info = {
- nomerbot: '254710772666',
- pairingNumber: '254710772666',
- nameown: 'Nour',
+ nomerbot: '212605784394',
+ pairingNumber: '212693227969',
+ nameown: 'Ibrahim Adams',
  nomerown: '254710772666',
  packname: 'sticker by ',
  author: 'ibrahim adams',
@@ -39,8 +39,8 @@ global.url = {
  registrasi: 'https://telegra.ph/file/29e49761b9b813a814afb.jpg',
  confess: 'https://telegra.ph/file/29e49761b9b813a814afb.jpg',
  akses: 'https://telegra.ph/file/29e49761b9b813a814afb.jpg', 
- wel: 'https://telegra.ph/file/29e49761b9b813a814afb.jpg', // gif welcome 
- bye: 'https://telegra.ph/file/29e49761b9b813a814afb.jpg', // gif good bye
+ wel: 'https://telegra.ph/file/9dbc9c39084df8691ebdd.mp4', // gif welcome 
+ bye: 'https://telegra.ph/file/1c05b8c019fa525567d01.mp4', // gif good bye
  sound: 'https://media.vocaroo.com/mp3/1awgSZYHXP3B' // untuk menu
 }
 
