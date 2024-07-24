@@ -51,7 +51,7 @@ global.url = {
  sgc: 'https://chat.whatsapp.com/F5BXJci8EDS9AJ6sfKMXIS'
 }
 
-global.wait =` انتظر .. أنا أحاول تلبية طلبك ...`
+global.wait  `Chill a moment...`
 
 // Info Wait
 global.msg = {
