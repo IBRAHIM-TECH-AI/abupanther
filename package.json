@@ -1,7 +1,7 @@
 {
-  "name": "bobiza-md",
+  "name": "Panther-md",
   "version": "1.0.0",
-  "description": "bobiza MD || Don t sell it or your name will be lost. If someone wants to buy this script, tell them to contact the owner",
+  "description": "Panther MD || Don t sell it or your name will be lost. If someone wants to buy this script, tell them to contact the owner",
   "main": "index.js",
   "type": "module",
   "directories": {
@@ -13,20 +13,20 @@
   },
   "keywords": [
     "termux-whatsapp-bot",
-    "bobiza",
+    "Panther",
     "whatsapp",
     "js-whatsapp",
     "whatsapp",
     "wabot-aq"
   ],
-  "homepage": "https://github.com/Tiooxy/Tixo-md",
-  "author": "Tio",
+  "homepage": "https://github.com/ibrahimaitech/BLACK-PANTHER-XMD",
+  "author": "ibrahimaitech",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Tiooxy/Tixo-md.git"
+    "url": "git+https://github.com/ibrahimaitech/BLACK-PANTHER-XMD.git"
   },
   "bugs": {
-    "url": "https://github.com/Tiooxy/Tixo-md/issues"
+    "url": "https://github.com/ibrahimaitech/BLACK-PANTHER-XMD/issues"
   },
   "license": "GPL-3.0-or-later",
   "dependencies": {
