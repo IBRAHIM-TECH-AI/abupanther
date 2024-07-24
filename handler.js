@@ -713,7 +713,7 @@ let msg = {
         }
 
 function ucapan() {
-  const time = moment.tz('Asia/Jakarta').format('HH')
+  const time = moment.tz('Africa/kenya').format('HH')
   let res = "This morning, bro / sis, I still haven't sleep ?"
   if (time >= 4) {
     res = "🌞 🌄"
